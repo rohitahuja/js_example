@@ -1,0 +1,6 @@
+Complete the TODOs in scripts.js!
+
+To test the webpage, run:
+    python -m http.server 8080
+    
+Then go to CS50 IDE -> Web Server
