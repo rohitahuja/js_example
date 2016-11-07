@@ -58,13 +58,13 @@ for(var i = 0; i < 50; i++){
 // CSS selectors
 
 // select all elements on page with tag "div"
-$('div')
+$('div');
 
 // select all elements on page with class "students"
-$('.students')
+$('.students');
 
 // select element on page with ID "teacher"
-$('#teacher')
+$('#teacher');
 
 // event handling
 
@@ -72,30 +72,29 @@ $('#teacher')
 $('#teacher').click(function(){
     
     
-})
+});
 
 // HTTP requests
 
-// make a get request to URL with parameters
-
-var url = "http://google.com"
-var parameters = {
+var url = "http://google.com";
+var params = {
     query: "cs50"
-}
+};
 
-$.get(url, parameters)
+// make a get request to URL with params
+$.get(url, params)
 .done(function(data, textStatus, jqXHR){
     
 })
 .fail(function(jqXHR, textStatus, errorThrow){
 
-})
+});
 
 // make a post request
-$.post(url, parameters)
+$.post(url, params)
 .done(function(data, textStatus, jqXHR){
     
 })
 .fail(function(jqXHR, textStatus, errorThrow){
 
-})
+});
